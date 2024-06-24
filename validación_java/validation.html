@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DIC cafe</title>
+    <link href="css/normarize.css" rel="stylesheet">
+    <link href="css/contact_validation.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="sub_header">
+        <nav class="header_nav">
+            <a href="validation.html" class="logo"><img src="images/sample_logo_k.png" class="logo_image"></a>
+            <ul class="global_nav">
+                <a href="validation.html" class="global_nav_item">
+                    <li>Home</li>
+                </a>
+                <a href="#menu" class="global_nav_item">
+                    <li>Menu</li>
+                </a>
+                <a href="contact.html" class="global_nav_item">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <section class="section_inner">
+        <div class="section_title">
+            <h1>CONTACT</h1>
+            <p>Consulta</p>
+        </div>
+        <form action="#" method="post" id="form">
+            <table class="contact" id="table">
+                <tbody>
+                    <tr class="contact_line">
+                        <td class="contact_sign"><label for="name">Nombre</label></td>
+                        <td class="contact_input"><input type="text" name="name" id="name"></td>
+                    </tr>
+                    <tr class="contact_line">
+                        <td class="contact_sign"><label for="email">Correo electrónico</label></td>
+                        <td class="contact_input"><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr class="contact_line">
+                        <td class="contact_sign"><label for="email_confirm">Confirmar correo electrónico</label></td>
+                        <td class="contact_input"><input type="email" name="email_confirm" id="email_confirm"></td>
+                    </tr>
+                    <tr class="contact_content" id="contenido_cont">
+                        <td class="contact_sign"><label for="content">Contenido</label></td>
+                        <td class="contact_input"><textarea name="content" id="content"></textarea></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="contact_btn_area">
+                <button type="reset" class="contact_btn reset_btn">Reiniciar</button>
+                <button type="submit" class="contact_btn submit_btn">Enviar</button>
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <nav>
+            <ul class="footer_nav">
+                <a href="validation.html" class="footer_nav_item">
+                    <li>Home</li>
+                </a>
+                <a href="#menu" class="footer_nav_item">
+                    <li>Menu</li>
+                </a>
+                <a href="contact.html" class="footer_nav_item">
+                    <li>Contact</li>
+                </a>
+                <a href="validation.html" class="footer_nav_item">
+                    <li>
+                        <img src="images/sample_logo_w.png" class="footer_logo">
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <p class="footer_right">© DIVIC Corp. ALL RIGHTS RESERVED.</p>
+    </footer>
+    <script type="text/javascript" src="javascripts/validation.js"></script>
+</body>
+
+</html>
